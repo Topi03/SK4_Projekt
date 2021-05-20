@@ -1,0 +1,9 @@
+{
+	"Kamera": {
+		"width": 160,
+		"height": 90
+	},
+	"Tür": {
+		"maxLog": 10
+	}
+}

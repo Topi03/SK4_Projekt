@@ -1,0 +1,22 @@
+.App {
+  display: grid;
+  grid-template-areas:
+    "headline headline"
+    "door pic"
+    "picv pic";
+}
+.headline {
+  grid-area: headline;
+  background-color: rgb(200, 255, 0);
+  padding: 10px;
+  border: blueviolet solid 10px;
+}
+.door {
+  grid-area: door;
+}
+.picStruct {
+  grid-area: pic;
+}
+.pic {
+  grid-area: picv;
+}

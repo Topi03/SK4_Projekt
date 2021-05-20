@@ -1,0 +1,52 @@
+.listYear {
+  list-style-type: none;
+  margin-top: 5px;
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-bottom: 5px;
+}
+.listYear > li {
+  border: thin solid gray;
+  padding: 5px;
+  font-size: medium;
+  margin-left: 0px;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.listItem > div {
+  padding: 10px;
+}
+.listItem > ul {
+  list-style-type: none;
+  padding-left: 0px;
+  padding-bottom: 5px;
+  text-align: start;
+  border: thin dashed gray;
+}
+.listItem.level1 {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.listItem.level2 {
+  margin-left: 20px;
+  padding-left: 0px;
+  margin-right: 5px;
+}
+.listItem.level3 {
+  margin-left: 30px;
+  padding-left: 0px;
+  margin-right: 5px;
+}
+.listItem.level3 > ul > li {
+  margin: 5px;
+}
+.listItem.level3 > ul > li > .options {
+  visibility: hidden;
+}
+.listItem.level3 > ul > li:hover > .options {
+  visibility: visible;
+}
+.listItem > div:hover {
+  background-color: antiquewhite;
+}
